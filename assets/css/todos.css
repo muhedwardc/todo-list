@@ -1,7 +1,54 @@
+body {
+	font-family: roboto;
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: white;
+	color: #666;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n){
+	background: #f6f6f6;
+}
+
+input {
+	background: #f6f6f6;
+	box-sizing: border-box;
+	color: #2980b9;
+	font-size: 18px;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+}
+
+input:focus {
+	background: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
 #container{
-	border: 2px solid grey;
+	background: #f6f6f6;
+	margin: 100px auto;
 	width: 360px;
-	margin: 0 auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .clicked {
